@@ -1,0 +1,20 @@
+#include "stdadx.h"
+#include "conio.h"
+#include <iostream>
+#include "math.h"
+using namespace std;
+void main (){
+    int N, signo, fact,i;
+    float S,X;
+    cin>>N>>;
+    s=0; fact=1;signo=1;
+    for(i=1;i<=N;i++)
+    {fact=fact*i;
+    if(i%2==0)
+    S=S-pow(X,i)/fact
+    else
+    S=S+pow(X,i)/fact;
+    }
+    cout<<s;
+    getch();    
+}
