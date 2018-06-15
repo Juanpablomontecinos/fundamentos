@@ -1,0 +1,18 @@
+#include "stdafx.h"
+#include "conio.h"
+#include "math.h"
+#include <iostream>
+using namespace std;
+
+void main(){
+    int x, N;
+    cout<<"ingrese N";
+    cin<<N<<;
+    for(int i=1;i<=N;i++){
+    
+    s=s+pow(i,2);
+    }
+    cout<<"la serie es"<<s<<endl;
+
+    getch();  
+}
