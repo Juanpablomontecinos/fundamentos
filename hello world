@@ -1,0 +1,12 @@
+#include "stdafx.h"
+#include <iostream> //CÒDIGO DEL LENGUAJE
+#include "conio.h" //Para mantener el programa una vez apretado F5
+
+using namespace std; //PARA MOSTRAR EN PANTALLA 
+
+void main()//SIN DEVOLUCION DE ENTEROS, SI FUERE "int main" indica que debo devolver un valor entero.
+{
+	cout << "Hola Mundo"<<endl; //Funciona como \n, ósease bajar una línea.
+
+	getch(); //VIENE CON CONIO.H 
+}
