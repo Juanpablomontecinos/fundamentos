@@ -1,0 +1,22 @@
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+{
+	float PI=3.14159,radio,volumen,diametro,Area,circunferencia;
+	cout<<"Ingrese el valor del diametro: ";
+	cin>>diametro;
+	radio=diametro/2;
+	Area=4*PI*pow(radio,2);
+	volumen=1.3333*(PI*pow(radio,3));
+	circunferencia=2*PI*radio;
+	cout<<"Area: "<<Area<<endl<<"Volumen: "<<volumen<<endl<<"Circunferencia: "
+	<<circunferencia<<endl;
+	
+	getch();
+
+}
