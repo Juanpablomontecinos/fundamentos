@@ -1,0 +1,16 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+{
+  float M,impuesto=0.13,Total;
+  cout<<"Ingrese el monto a calcular: ";
+  cin>>M;
+  Total=M*impuesto;
+  cout<<"El monto total es: "<<Total<<endl;
+  getch()
+
+}
