@@ -1,0 +1,17 @@
+#include "stdafx.h"
+#include "conio.h"
+#include <iostream>
+
+void main () {
+    int N, s;
+
+    cout<<"ingrese el numero N>1";
+    cin>>N;
+    cout<<"s=";
+    for(int i=1;i<=N;i+2){
+    cout<<i<<"+";
+    s=s+i;
+    }
+cout<<"el resultado de la serie es: "<<s;
+getch()
+}
